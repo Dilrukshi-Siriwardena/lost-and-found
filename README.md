@@ -101,10 +101,4 @@ Push to branch (git push origin feature-name)
 
 Create a Pull Request
 
-**Notes**
 
-Ensure backend is running at http://localhost:8080
-
-JWT tokens are expected in Authorization: Bearer <token> format
-
-Update .env for custom API base URL if needed
