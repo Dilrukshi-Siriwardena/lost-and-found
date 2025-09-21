@@ -1,21 +1,17 @@
-📦 Lost and Found Application – Frontend
+**Lost and Found Application – Frontend**
 
 This is the frontend of the Lost and Found Application, built using React + TypeScript and integrated with a Spring Boot + JWT backend.
 The application allows users to report, search, and manage lost/found items, with authentication, role-based navigation, and CRUD operations.
 
-🚀 Features
+**Features**
 
-🔐 JWT Authentication & Authorization
+JWT Authentication & Authorization
+Protected Routing with role-based access
+CRUD operations for lost and found items
+Responsive UI with TailwindCSS
+API integration with Spring Boot backend
 
-🧭 Protected Routing with role-based access
-
-📝 CRUD operations for lost and found items
-
-🎨 Responsive UI with TailwindCSS
-
-🔄 API integration with Spring Boot backend
-
-⚙️ Project Setup
+⚙️ **Project Setup**
 1️⃣ Create React + TypeScript Project
 npx create-react-app lost-and-found-frontend --template typescript
 cd lost-and-found-frontend
@@ -37,7 +33,7 @@ Update index.css:
 @tailwind components;
 @tailwind utilities;
 
-📁 Folder Structure
+ **Folder Structure**
 src/
 ├── api/          # API configuration (axios instance)
 ├── components/   # Reusable UI components
@@ -48,7 +44,7 @@ src/
 ├── App.tsx
 └── main.tsx
 
-🔐 Authentication
+**Authentication**
 
 Axios instance with JWT support (api/axios.ts)
 
@@ -56,9 +52,9 @@ Login & Signup pages with token storage
 
 ProtectedRoute for private routes
 
-🔑 Token is stored in localStorage and automatically attached to API requests.
+Token is stored in localStorage and automatically attached to API requests.
 
-🧭 Routing
+**Routing**
 
 All routes are defined in routes/AppRoutes.tsx.
 
@@ -68,7 +64,7 @@ All routes are defined in routes/AppRoutes.tsx.
 
 /dashboard → Protected dashboard (requires login)
 
-📝 CRUD Operations
+**CRUD Operations**
 
 Example: List reported items in Dashboard
 
@@ -85,22 +81,15 @@ Update item status (PUT/PATCH)
 
 Delete items (DELETE)
 
-🎨 UI/UX Best Practices
-
+ **UI/UX Best Practices**
 Consistent TailwindCSS components (bg-blue-500, rounded-xl, shadow-md)
 
 Responsive design with sm:, md:, lg: breakpoints
 
 Clean layout with reusable components
 
-🔃 GitHub Setup
-git init
-git add .
-git commit -m "Initial front-end commit"
-git remote add origin https://github.com/your-username/lost-and-found-frontend.git
-git push -u origin master
 
-🤝 Contribution
+**Contribution**
 
 Fork the repo
 
@@ -112,7 +101,7 @@ Push to branch (git push origin feature-name)
 
 Create a Pull Request
 
-📌 Notes
+**Notes**
 
 Ensure backend is running at http://localhost:8080
 
